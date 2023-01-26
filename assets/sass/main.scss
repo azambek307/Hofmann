@@ -1,0 +1,29 @@
+.for-radius {
+  border-radius: 8px !important;
+  border-top-right-radius: 0% !important;
+}
+
+@keyframes animated {
+  to {
+    transform: translateX(-1500px);
+  }
+}
+.animated {
+  animation: animated 10s ease-in-out alternate-reverse;
+}
+li {
+  list-style: none ;
+}
+
+.borderli:hover {
+  border: 1px solid #ccc;
+}
+.borderli {
+  transition: 0.4s;
+}
+.button-gray {
+  background-color: #eee;
+  padding: 15px 20px;
+  border-bottom-left-radius: 5px;
+  border-top-left-radius: 5px;
+}
